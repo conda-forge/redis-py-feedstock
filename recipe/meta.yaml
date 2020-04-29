@@ -1,4 +1,4 @@
-{% set version = "3.4.1" %}
+{% set version = "3.5.0" %}
 
 package:
   name: redis-py
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://github.com/andymccurdy/redis-py/archive/{{ version }}.tar.gz
-  sha256: 4b6ca03b90cc4a18212ee9f231e1fc8b2106256a76e30eea76c3d7cc110573ad
+  sha256: 139b90b00e78d302b33f952d74ad02478392cf1e2b94ff0c503a2f925441e1fd
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
 
 requirements:
   host:
