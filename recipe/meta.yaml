@@ -9,9 +9,9 @@ source:
   sha256: 139b90b00e78d302b33f952d74ad02478392cf1e2b94ff0c503a2f925441e1fd
 
 build:
-  noarch: python
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   host:
@@ -21,9 +21,12 @@ requirements:
     - python
 
 test:
+  commands:
+    - pip check
   imports:
     - redis
   requires:
+    - pip
     - pytest >=2.5.0
 
 about:
