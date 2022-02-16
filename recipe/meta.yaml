@@ -21,7 +21,7 @@ requirements:
     - python >=3.6
     - deprecated >=1.2.3
     - importlib-metadata >=1.0
-    - packaging >=20.
+    - packaging >=20.4
 
 test:
   commands:
