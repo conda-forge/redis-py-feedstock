@@ -1,15 +1,15 @@
 About redis-py
 ==============
 
-Home: https://github.com/andymccurdy/redis-py/
+Home: https://github.com/redis/redis-py/
 
-Package license: [MIT](https://github.com/andymccurdy/redis-py/blob/master/LICENSE)
+Package license: [MIT](https://github.com/redis/redis-py/blob/master/LICENSE)
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/redis-py-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python client for Redis key-value store
 
-Development: https://github.com/andymccurdy/redis-py/
+Development: https://github.com/redis/redis-py/
 
 Documentation: https://pypi.python.org/pypi/redis
 
