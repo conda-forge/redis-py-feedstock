@@ -5,7 +5,7 @@ Home: https://github.com/redis/redis-py/
 
 Package license: [MIT](https://github.com/redis/redis-py/blob/master/LICENSE)
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/redis-py-feedstock/blob/master/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/redis-py-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client for Redis key-value store
 
@@ -23,8 +23,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3503&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/redis-py-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3503&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/redis-py-feedstock?branchName=main">
       </a>
     </td>
   </tr>
