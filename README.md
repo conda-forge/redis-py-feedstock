@@ -1,11 +1,11 @@
-About redis-py
-==============
+About redis-py-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/redis-py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/redis/redis-py/
 
 Package license: [MIT](https://github.com/redis/redis-py/blob/master/LICENSE)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/redis-py-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python client for Redis key-value store
 
