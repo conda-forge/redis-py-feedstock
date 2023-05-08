@@ -19,9 +19,9 @@ requirements:
     - pip
   run:
     - python >=3.7
-    - async-timeout >=4.0.2
     - importlib-metadata >=1.0
     - typing-extensions
+    - async-timeout >=4.0.2
 
 test:
   commands:
