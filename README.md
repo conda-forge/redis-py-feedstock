@@ -153,4 +153,5 @@ Feedstock Maintainers
 
 * [@daf](https://github.com/daf/)
 * [@kwilcox](https://github.com/kwilcox/)
+* [@rxm7706](https://github.com/rxm7706/)
 
