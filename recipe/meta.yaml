@@ -1,4 +1,4 @@
-{% set version = "5.0.8" %}
+{% set version = "5.0.9" %}
 
 package:
   name: redis-py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/redis/redis-py/archive/v{{ version }}.tar.gz
-  sha256: e5c0666817a3d7d0654d683cfd68fb31c1d9576ce3585a7914f45b076b1f6e4e
+  sha256: c107fddbaa40414559ddd21f0a78bc7d466cd6b20a800839ac18b9bb54e5c150
 
 build:
   number: 0
@@ -15,10 +15,12 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
+    - setuptools
+    - wheel
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - importlib-metadata >=1.0
     - typing-extensions
     - async-timeout >=4.0.2
