@@ -1,4 +1,4 @@
-{% set version = "5.1.1" %}
+{% set version = "5.2.0" %}
 
 package:
   name: redis-py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/redis/redis-py/archive/v{{ version }}.tar.gz
-  sha256: e1df6dd98eb2bdbc68dabb4b19a5167468ae36dbb53a1c777d5cf7ba8345450e
+  sha256: 9be14a8c988a0428c942b8eda201bb2ed2ea6ff7c05a07bbede45b1e1b60d19c
 
 build:
   number: 0
