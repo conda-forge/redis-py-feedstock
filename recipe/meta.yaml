@@ -9,18 +9,18 @@ source:
   sha256: fdb92ef773faac88c2bf80c47ecddbbdf93bae93363b4e6f9418b5686260420b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools
     - wheel
     - pip
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - importlib-metadata >=1.0
     - typing-extensions
     - async-timeout >=4.0.3
@@ -32,6 +32,7 @@ test:
     - redis
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/redis/redis-py/
