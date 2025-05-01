@@ -1,4 +1,4 @@
-{% set version = "5.3.0" %}
+{% set version = "6.0.0" %}
 
 package:
   name: redis-py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/redis/redis-py/archive/v{{ version }}.tar.gz
-  sha256: 40e63adcec08036ca3aa416bca006c7f398a49b4fef3c995b9064b501f572f5c
+  sha256: 5ebdb60dc099960106d40e132d4a5d3454eae2ad318bacc4f0c2b6739589548a
 
 build:
   number: 0
@@ -16,14 +16,10 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - setuptools
-    - wheel
     - pip
+    - hatchling
   run:
-    - pyjwt >=2.9.0,<2.10.dev0
     - python >={{ python_min }}
-    - importlib-metadata >=1.0
-    - typing-extensions
     - async-timeout >=4.0.3
 
 test:
